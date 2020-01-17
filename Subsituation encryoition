@@ -1,0 +1,171 @@
+import string
+# Characters used
+alpha = list(string.ascii_letters)
+
+#Message to encrypt
+message = list(input('message: '))
+
+newMessage = []
+
+for letter in message:
+    if letter == 'a':
+        letter = 'n'
+        newMessage.append(letter)
+    elif letter == 'b':
+        letter = 'z'
+        newMessage.append(letter)
+    elif letter == 'c':
+        letter = 'g'
+        newMessage.append(letter)
+    elif letter == 'd':
+        letter = 'h'
+        newMessage.append(letter)
+    elif letter == 'e':
+        letter = 'q'
+        newMessage.append(letter)
+    elif letter == 'f':
+        letter = 'k'
+        newMessage.append(letter)
+    elif letter == 'i':
+        letter = 'm'
+        newMessage.append(letter)
+    elif letter == 'j':
+        letter = 'y'
+        newMessage.append(letter)
+    elif letter == 'l':
+        letter = 'o'
+        newMessage.append(letter)
+    elif letter == 'p':
+        letter = 'x'
+        newMessage.append(letter)
+    elif letter == 'r':
+        letter = 'v'
+        newMessage.append(letter)
+    elif letter == 's':
+        letter = 't'
+        newMessage.append(letter)
+    elif letter == 'u':
+        letter = 'w'
+        newMessage.append(letter)
+    elif letter == 'n':
+        letter = 'a'
+        newMessage.append(letter)
+    elif letter == 'z':
+        letter = 'b'
+        newMessage.append(letter)
+    elif letter == 'g':
+        letter = 'c'
+        newMessage.append(letter)
+    elif letter == 'h':
+        letter = 'd'
+        newMessage.append(letter)
+    elif letter == 'q':
+        letter = 'e'
+        newMessage.append(letter)
+    elif letter == 'k':
+        letter = 'f'
+        newMessage.append(letter)
+    elif letter == 'm':
+        letter = 'i'
+        newMessage.append(letter)
+    elif letter == 'y':
+        letter = 'j'
+        newMessage.append(letter)
+    elif letter == 'o':
+        letter = 'l'
+        newMessage.append(letter)
+    elif letter == 'x':
+        letter = 'p'
+        newMessage.append(letter)
+    elif letter == 'v':
+        letter = 'r'
+        newMessage.append(letter)
+    elif letter == 't':
+        letter = 's'
+        newMessage.append(letter)
+    elif letter == 'w':
+        letter = 'u'
+        newMessage.append(letter)
+    elif letter == 'A':
+        letter = 'N'
+        newMessage.append(letter)
+    elif letter == 'B':
+        letter = 'Z'
+        newMessage.append(letter)
+    elif letter == 'C':
+        letter = 'G'
+        newMessage.append(letter)
+    elif letter == 'D':
+        letter = 'H'
+        newMessage.append(letter)
+    elif letter == 'E':
+        letter = 'Q'
+        newMessage.append(letter)
+    elif letter == 'F':
+        letter = 'K'
+        newMessage.append(letter)
+    elif letter == 'I':
+        letter = 'M'
+        newMessage.append(letter)
+    elif letter == 'J':
+        letter = 'Y'
+        newMessage.append(letter)
+    elif letter == 'L':
+        letter = 'O'
+        newMessage.append(letter)
+    elif letter == 'P':
+        letter = 'X'
+        newMessage.append(letter)
+    elif letter == 'R':
+        letter = 'V'
+        newMessage.append(letter)
+    elif letter == 'S':
+        letter = 'T'
+        newMessage.append(letter)
+    elif letter == 'U':
+        letter = 'W'
+        newMessage.append(letter)
+    elif letter == 'N':
+        letter = 'A'
+        newMessage.append(letter)
+    elif letter == 'Z':
+        letter = 'B'
+        newMessage.append(letter)
+    elif letter == 'G':
+        letter = 'C'
+        newMessage.append(letter)
+    elif letter == 'H':
+        letter = 'D'
+        newMessage.append(letter)
+    elif letter == 'Q':
+        letter = 'E'
+        newMessage.append(letter)
+    elif letter == 'K':
+        letter = 'F'
+        newMessage.append(letter)
+    elif letter == 'M':
+        letter = 'I'
+        newMessage.append(letter)
+    elif letter == 'Y':
+        letter = 'J'
+        newMessage.append(letter)
+    elif letter == 'O':
+        letter = 'L'
+        newMessage.append(letter)
+    elif letter == 'X':
+        letter = 'P'
+        newMessage.append(letter)
+    elif letter == 'V':
+        letter = 'R'
+        newMessage.append(letter)
+    elif letter == 'T':
+        letter = 'S'
+        newMessage.append(letter)
+    elif letter == 'W':
+        letter = 'U'
+        newMessage.append(letter)
+    else:
+        newmessage.append(letter)
+print("vishal sharma")
+print(''.join(newMessage))
+# this code is witten by vishal sharma 
