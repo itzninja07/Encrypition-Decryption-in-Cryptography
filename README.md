@@ -1,2 +1,3 @@
 # Encrypition-Decryption-in-Cryptographyptography
-# subsituation encrypition  is written in python 3
+# Encrypition and Decrypition are written in c++. 
+# subsituation encrypition  is written in python 3.
