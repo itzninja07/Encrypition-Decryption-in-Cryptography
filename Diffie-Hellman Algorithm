@@ -13,22 +13,22 @@ long long int power(long long int a, long long int b,long long int P)
 
 int main() 
 { 
-	long long int P, G, x, a, y, b, ka, kb; 
+	long long int P, Q, x, a, y, b, ka, kb; 
 		printf("Diffie-Hellman Algorithm\n");
 
 	P = 26;
 	printf("The value of P : %lld\n", P); 
 
-	G = 7; 
-	printf("The value of G : %lld\n\n", G); 
+	Q = 7; 
+	printf("The value of Q : %lld\n\n", Q); 
 
 	a = 7;
 	printf("The private key a for Avi : %lld\n", a); 
-	x = power(G, a, P);  
+	x = power(Q, a, P);  
 	
 	b = 9; 
 	printf("The private key b for Ben : %lld\n\n", b); 
-	y = power(G, b, P);  
+	y = power(Q, b, P);  
 
 		
 	ka = power(y, a, P); 
